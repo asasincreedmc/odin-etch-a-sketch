@@ -5,6 +5,8 @@
 }
 
 .grid {
+    border: 0px;
+    margin: 0px;
     background-color: red;
 }
 

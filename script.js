@@ -1,8 +1,9 @@
 const container = document.querySelector(".container");
-const styles = document.styleSheets.item(0)
+const styleGrid = document.createElement("style")
+document.head.appendChild(styleGrid)
+const styles = styleGrid.sheet
 
 styles.insertRule(".container { grid-template-columns: repeat(16, 1fr); }");
-styles.insertRule(".container { grid-template-rows: repeat(16, 1fr); }");
 
 function generateSquare() {
     const div = document.createElement("div")
