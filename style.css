@@ -2,14 +2,14 @@
     width: 500px;
     height: 500px;
     display: grid;
+    border: 3px solid black;
 }
 
 .grid {
     border: 0px;
     margin: 0px;
-    background-color: red;
 }
 
 .grid:hover{
-    background-color: blue;
+    background-color: black;
 }
